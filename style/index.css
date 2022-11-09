@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#nav{
+    background-color: #e42529;
+    position: fixed;
+    width: 100vw;
+    padding-bottom: 10px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+#img1>img{
+    background-color: #003380;
+    margin-top: 130px;
+    width: 100vw;
+    height: 300px;
+}
+#nav>#left{
+    background-color: white;
+    margin-left: 50px;
+    width: 90px;    
+    height: 90px;
+    border-radius: 50%;   
+    margin-bottom: 4px;
+}
+#nav>#left>img{
+    margin-left: 9px;
+    margin-top: 9px;
+    width: 80%;    
+    height: 80%;    
+}
+#mid > i {
+	font-size: 15px;
+	color: rgb(200, 187, 187);
+    z-index: 1;
+    margin-left: -40px;
+}
+
+#mid > input{
+    height: 40px;
+	width: 600px;
+	border: none;
+	outline: none;
+    margin-top: 35px;
+	font-size: 15px;
+	padding-left: 20px;
+    color: rgb(200, 187, 187);
+    border-radius: 30px;
+}
+
+#right{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-right: 25px;
+    justify-content: space-between;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#right>#top{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: flex-start;    
+    margin-bottom: 20px;
+}
+
+#right>#top>i{
+    margin-top: 3px;
+    width: 14px;
+}
+
+#right>#bottom{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+#right>#bottom>i{
+    width: 14px;
+    margin-top: 4px;
+}
+
+#menu{
+    background-color: #003380;
+    position: fixed;
+    margin-top: 95px;
+    height: 40px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    font-size: 15px;
+}
+
+
+.carousel-control-prev{
+    margin-top: 90px;
+    height: 90px;
+    width: 80px;
+    margin-left: -30px;
+    background-color: rgb(100, 100, 100);
+}
+
+.carousel-control-next{
+    margin-top: 90px;
+    height: 90px;
+    width: 80px;
+    margin-right: -30px;
+    background-color: rgb(100, 100, 100);
+}
+
+#carouselExampleIndicators{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+#audiofest{
+    border: 1px solid grey;
+    width: 100vw;
+    height: 450px;
+}
+
+#besttv{
+    border: 1px solid grey;
+    width: 100vw;
+    height: 450px;
+}
+
+#greatdeals{
+    margin: auto;
+}
+
+#greatdeals>p{
+    margin: 40px 0px 50px 25px;
+    font-size: x-large;
+}
+
+#greatdeals>#top{
+    display: flex;
+    justify-content: space-around;
+    height: 260px;
+    align-items: flex-end;
+    margin: auto;
+    width: 100%;
+    border-bottom: 1px solid grey;
+}
+
+#greatdeals>#bottom{
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    margin: auto;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: -40px;
+}
