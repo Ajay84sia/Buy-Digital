@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#nav{
+    background-color: #e42529;
+    position: fixed;
+    width: 100vw;
+    padding-bottom: 10px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-top: -20px;
+    padding-top: 5px;
+}
+#img1>img{
+    background-color: #003380;
+    margin-top: 130px;
+    width: 100vw;
+    height: 300px;
+}
+#nav>#left{
+    background-color: white;
+    margin-left: 50px;
+    width: 90px;    
+    height: 90px;
+    border-radius: 50%;   
+    margin-bottom: 4px;
+}
+#nav>#left>a>img{
+    margin-left: 9px;
+    margin-top: 9px;
+    width: 80%;    
+    height: 80%;    
+}
+#mid > i {
+	font-size: 15px;
+	color: rgb(200, 187, 187);
+    z-index: 1;
+    margin-left: -40px;
+}
+
+#mid > input{
+    height: 40px;
+	width: 600px;
+	border: none;
+	outline: none;
+    margin-top: 35px;
+	font-size: 15px;
+	padding-left: 20px;
+    color: rgb(200, 187, 187);
+    border-radius: 30px;
+}
+
+#right{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-right: 25px;
+    justify-content: space-between;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#right>#top{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: flex-start;    
+    margin-bottom: 45px;
+}
+
+#right>#top>i{
+    margin-top: 3px;
+    width: 14px;
+}
+
+#right>#bottom{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#right>#bottom>p>a{
+    text-decoration: none;
+    color: white;
+}
+
+#right>#bottom>i{
+    width: 14px;
+    margin-top: 4px;
+}
+
+#menu{
+    background-color: #003380;
+    position: fixed;
+    margin-top: 85px;
+    height: 40px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    font-size: 15px;
+}
+
+#menu>div{
+    cursor: pointer;
+}
+
+#menu>div:hover{
+    height: 100%;
+    background-color: #e42529;
+}
+
+/* login */
+
+#loginbottom{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;   
+    
+}
+
+#loginbottom>#leftimg{
+    padding-top: 150px;
+    width: 60%;       
+}
+
+#loginbottom>#leftimg>img{
+    width: 100%;    
+    height: 380px;    
+}
+
+#rightinput{
+    width: 30%;  
+    margin-top: 150px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    height: 250px;
+}
+
+#loginbottom>#rightinput>div>#top{
+    width: 413px;
+    height: 45px;   
+    padding-top: 20px; 
+    padding-left: 30px; 
+    background-color: #f9fafd;
+    border: none;
+}
+
+#loginbottom>#rightinput>div>#bottom{
+    width: 400px;
+    padding-top: 30px; 
+    padding-left: 30px; 
+    padding-right: 30px; 
+}
+
+#loginbottom>#rightinput>div>#bottom>input{
+    padding-left: 20px;
+    width: 90%;
+    height: 35px;
+    margin-bottom: 30px;
+    border: 1px solid lightgrey;
+    
+}
+
+#loginbottom>#rightinput>div>#bottom>button{
+    border: none;
+    background-color: #e42529;
+    color: white;
+    font-weight: bold;
+    height: 35px;
+    width: 96%;
+}
+
+/* login */
+
+#bottommenu{
+    color: white;
+    background-color: #003380;
+    width: 100vw;
+    padding-top: 20px;
+}
+
+#bottommenu>#top{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+#bottommenu h6{
+    margin-bottom: 8px;
+    font-size: small;
+}
+
+li{
+    list-style: none;
+    margin-bottom: 6px;
+}
+
+#bottommenu>#bottom{
+    display: flex;
+}
+
+#bottom>#social{
+    margin-left: 115px;
+}
+
+#bottom>#app{
+    margin-left: 300px;
+}
+
+#bottom>#app>#store>img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+footer{
+    color: white;
+    background-color: #0a244a;
+    width: 100vw;
+    height: 140px;
+    text-align: center;
+}
+
+footer>h6{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    font-size: medium;
+}
+
+footer>#hr{
+    padding-bottom: 10px;
+    border-bottom: 0.2px solid white;
+}
+
+#hr+p{
+    margin-top: 20px;
+}
+
+footer>p{
+    font-size: 13px;
+    line-height: 15px;
+    padding-bottom: 5px;
+}
+
+footer>hr{
+    margin-bottom: 20px;
+}
+
