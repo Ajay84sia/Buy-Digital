@@ -25,7 +25,7 @@
     border-radius: 50%;   
     margin-bottom: 4px;
 }
-#nav>#left>img{
+#nav>#left>a>img{
     margin-left: 9px;
     margin-top: 9px;
     width: 80%;    
@@ -78,7 +78,11 @@
     color: white;
     justify-content: space-between;
     align-items: flex-start;
+}
 
+#right>#bottom>p>a{
+    text-decoration: none;
+    color: white;
 }
 
 #right>#bottom>i{
@@ -97,6 +101,17 @@
     color: white;
     align-items: center;
     font-size: 15px;
+}
+
+#menu>div{
+    cursor: pointer;
+}
+
+#menu>div:hover{
+    align-items: center;
+    padding-top: 10px;
+    height: 100%;
+    background-color: #e42529;
 }
 
 
@@ -123,16 +138,141 @@
 }
 
 #audiofest{
-    border: 1px solid grey;
+    margin-top: 291px;
+    padding-top: 20px;
+    
+}
+
+#audiofest>p{
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+#audiofestinner{
+    border-bottom: 1px solid grey;
+    width: 100vw;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 20px;
+    padding-top: 50px;
+}
+
+
+#audiofestinner>div{
+    width: 16%;
+    height: 100%;
+}
+
+
+#audiofestinner>div>p{
+    line-height: 1.4em;
+    height: 2.8em;     
+    overflow: hidden; 
+    margin-bottom: 1px;
+}
+
+#audiofestinner>div>img{
+    width: 180px;
+    height: 180px;
+    display: block;
+    margin: 0 auto;
+}
+
+#audiofestinner>div>button{
+    color: #589b57;
+    background-color: #effcf5;
+    border: 1px solid #589b57;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 9px;
+    border-radius: 20px;
+    height: 22px;
+}
+
+#audiofestinner>div>span+p{
+    margin-bottom: -25px;
+}
+
+#audiofestinner>div>span{
+    display: flex;
+    margin-bottom: -12px;
+}
+
+#audiofestinner>div>span>p{
+    margin-right: 10px;
+}
+/* tv */
+#besttv{
+    padding-top: 20px;
+    border-bottom: 1px solid grey;
     width: 100vw;
     height: 450px;
 }
 
-#besttv{
-    border: 1px solid grey;
-    width: 100vw;
-    height: 450px;
+#besttv>p{
+    font-size: 30px;
+    margin-left: 30px;
+
 }
+
+#besttvseller{
+    border-bottom: 1px solid grey;
+    width: 100vw;
+    /* height: 450px; */
+    display: flex;
+    justify-content: space-around;
+    line-height: 20px;
+}
+
+
+#besttvseller>div{
+    width: 16%;
+    height: 100%;
+}
+
+
+#besttvseller>div>p{
+    line-height: 1.4em;
+    height: 2.8em;     
+    overflow: hidden; 
+    margin-bottom: 1px;
+}
+
+#besttvseller>div>img{
+    width: 180px;
+    height: 180px;
+    display: block;
+    margin: 0 auto;
+}
+
+#besttvseller>div>button{
+    color: #589b57;
+    background-color: #effcf5;
+    border: 1px solid #589b57;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 9px;
+    border-radius: 20px;
+    height: 22px;
+    margin-bottom: 28.5px;
+}
+
+#besttvseller>div>span+p{
+    margin-bottom: -25px;
+}
+
+#besttvseller>div>span{
+    display: flex;
+    margin-bottom: -12px;
+}
+
+#besttvseller>div>span>p{
+    margin-right: 10px;
+}
+
+
+/* tv */
 
 #greatdeals{
     margin: auto;
@@ -162,3 +302,216 @@
     margin-top: 80px;
     margin-bottom: -40px;
 }
+
+#promisetext{
+    margin-top: 300px;
+    text-align: center;
+    color: #003380;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#promise{
+    display: flex;
+    justify-content: space-around;
+}
+
+#promise>div{
+    border: 1px solid lightgrey;
+    background-color: #f7f7f7;
+    width: 23%;
+    padding-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+#promise>div>img{
+    width: 12%;
+}
+
+#promise>h6{
+    color: #003380;
+    margin-top: 20px;
+}
+#promise div:nth-child(3) img{
+    margin-top: 19px;
+}
+#promise div p{
+    color: grey;
+    margin-top: -10px;
+    margin-bottom: 0px;
+}
+
+/* audio */
+#bestselling{
+    padding-top: 20px;
+    width: 100vw;
+    height: 450px;
+}
+
+#bestselling>p{
+    font-size: 30px;
+    margin-left: 30px;
+
+}
+
+#bestsellingaudio{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    line-height: 20px;
+}
+
+
+#bestsellingaudio>div{
+    width: 16%;
+    height: 100%;
+}
+
+
+#bestsellingaudio>div>p{
+    line-height: 1.4em;
+    height: 2.8em;     
+    overflow: hidden; 
+    margin-bottom: 1px;
+}
+
+#bestsellingaudio>div>img{
+    width: 180px;
+    height: 180px;
+    display: block;
+    margin: 0 auto;
+}
+
+#bestsellingaudio>div>button{
+    color: #589b57;
+    background-color: #effcf5;
+    border: 1px solid #589b57;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 9px;
+    border-radius: 20px;
+    height: 22px;
+    margin-bottom: 28.5px;
+}
+
+#bestsellingaudio>div>span+p{
+    margin-bottom: -25px;
+}
+
+#bestsellingaudio>div>span{
+    display: flex;
+    margin-bottom: -12px;
+}
+
+#bestsellingaudio>div>span>p{
+    margin-right: 10px;
+} 
+
+
+/* audio */
+
+#explorerange{
+    width: 100vw;
+    background-color: #f7f7f7;
+    margin-top: 10px;
+}
+
+#explorerange>p{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#explorerange>#mid{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#explorerange>#mid>div>img{
+    margin-top: 80px;
+    margin-bottom: 50px;
+
+}
+
+#explorerange>#mid>div>p{
+    font-size: large;
+
+}
+
+#explorerange>button{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 46%;
+    text-align: center;
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    border: none;
+    background-color: #003380;
+    color: white;
+}
+
+#bottommenu{
+    color: white;
+    background-color: #003380;
+    width: 100vw;
+    padding-top: 20px;
+}
+
+#bottommenu>#top{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+#bottommenu>#bottom{
+    display: flex;
+}
+
+#bottom>#social{
+    margin-left: 115px;
+}
+
+#bottom>#app{
+    margin-left: 300px;
+}
+
+#bottom>#app>#store>img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+footer{
+    color: white;
+    background-color: #0a244a;
+    width: 100vw;
+    height: 140px;
+    text-align: center;
+}
+
+footer>h6{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+}
+
+footer>p{
+    font-size: 13px;
+    line-height: 1px;
+    padding-bottom: 5px;
+}
+
+footer>hr{
+    margin-bottom: 20px;
+}
+
