@@ -5,8 +5,160 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Electronic Shopping Store in India - Buy Digital</title>
+    <script src="https://kit.fontawesome.com/7a0bb68024.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style/product.css">
 </head>
 <body>
+
+    <div id="nav">
+        <div id="left">
+            <a href="./index.html"><img src="./Images/homepage/Logo1.png" alt="logo"></a>
+        </div>
+        <div id="mid">
+            <input oninput="handleSearch()" id="search" type="text" placeholder="Find your favorite products">
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+        <div id="right">
+            <div id="top">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <p>Find a store </p>
+                <p> | Buying guides </p>
+                <p> | Contact us</p>
+            </div>
+            <div id="bottom">
+                <p>Select your PIN Code |</p>
+                <i class="fa fa-shopping-cart header__maininfo__list__item__icon" aria-hidden="true"></i>
+                <p><a href="./cart.html">&nbsp; Cart |</a></p>
+                <i class="fa fa-user header__maininfo__list__item__icon" aria-hidden="true"></i>
+                <p><a href="./index.html">Logout</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="menu">
+        <div>MOBILES & TABLETS <i class="fa-sharp fa-solid fa-angle-down"></i> </div>
+        <div>TELEVISION <i class="fa-sharp fa-solid fa-angle-down"></i> </div>
+        <div>AUDIO <i class="fa-sharp fa-solid fa-angle-down"></i> </div>
+        <div>HOME APPLIANCES <i class="fa-sharp fa-solid fa-angle-down"></i> </div>
+        <div>COMPUTERS <i class="fa-sharp fa-solid fa-angle-down"></i> </div>
+        <div>CAMERAS <i class="fa-sharp fa-solid fa-angle-down"></i> </div>
+        <div>KITCHEN APPLIANCES <i class="fa-sharp fa-solid fa-angle-down"></i> </div>
+        <div>PERSONAL CARE <i class="fa-sharp fa-solid fa-angle-down"></i> </div>
+    </div>
+
+
+
+    <div id="productfunction">
+
+      <!-- Price Sort -->
+      <select onchange="handlePrice()" name="Sort By" id="priceSort">
+        <option value="">Sort by: Price</option>
+        <option value="LTH">Low to High</option>
+        <option value="HTL">High to Low</option>
+      </select>
+      <!-- Category Sort -->
+      <select onchange="handleCat()" name="Sort By" id="catSort">
+        <option value="">Sort by: Category</option>
+        <option value="audio">Audio</option>
+        <option value="tv">Television</option>
+        <option value="phone">Mobile</option>
+        <option value="computer">Computer Accessories</option>
+        <option value="laptop">Laptop</option>
+      </select>
+
+      <div id="productarea">
+
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div id="bottommenu">
+        <div id="top">
+          <div id="first">
+            <ul>
+              <h6>PRODUCT CATEGORIES</h6>
+              <li>Smartphones</li>
+              <li>Laptops</li>
+              <li>DSLR Cameras</li>
+              <li>Televisions</li>
+              <li>Air Conditioners</li>
+              <li>Refrigerators</li>
+              <li>Kitchen Appliances</li>
+              <li>Accessories</li>
+              <li>Personal Care & Grooming</li>
+            </ul>
+          </div>
+          <div id="second">
+            <ul>
+              <h6>SITE INFO</h6>
+              <li>About Buy Digital</li>
+              <li>resQ Services</li>
+              <li>Site Map</li>
+              <li>Gift Cards</li>
+              <li>Corporate Enquires</li>
+              <li>Contact Us</li>
+            </ul>
+          </div>
+          <div id="third">
+            <ul>
+              <h6>RESOURCE CENTRE</h6>
+              <li>Product Reviews</li>
+              <li>Buying Guides</li>
+              <li>How Tos</li>
+              <li>Featured Stories</li>
+              <li>Events & Happenings</li>
+            </ul>
+          </div>
+          <div id="fourth">
+            <ul>
+              <h6>POLICIES</h6>
+              <li>Terms of Use</li>
+              <li>FAQs</li>
+              <li>Cancellation and Return Policy</li>
+              <li>Pricing and Payments Policy</li>
+              <li>Shipping and Delivery Policy</li>
+              <li>Privacy Policy</li>
+              <li>E-waste Recycling Policy</li>
+              <li>EMI and Additional Cashback T&C</li>
+              <li>BuyOne Loyality Program T&C</li>
+              <li>Caution Notice</li>
+            </ul>
+          </div>
+        </div>
+        <div id="bottom">
+          <div id="social">
+            <h6>FOLLOW US</h6>
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+          <div id="app">
+            <h6>EXPERIENCE BUY DIGITAL APP ON MOBILE</h6>
+            <div id="store">
+              <img src="./Images/homepage/google_play_store.png" alt="play store">
+            <img src="./Images/homepage/ios_app_store_icon.png" alt="app store">
+            </div>  
+          </div>
+        </div>
+      </div>
+  
+      <footer>
+        <h6>Disclaimer</h6>
+        <p>Product prices, offers and availability are subject to change from time to time. All prices are inclusive of taxes. Product colours & images are only for illustration and they may not exactly match with the actual product. Product</p>
+        <p id="hr">specs are subject to change & may vary from actual product. While every care is taken to avoid inaccuracies in content, these are provided as is, without warranty of any kind.</p>
+        <p>&copy; 2022 Buy Digital. All Rights Reserved</p>
+      </footer>
     
 </body>
 </html>
+
+<script src="./product.js"></script>

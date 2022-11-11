@@ -156,6 +156,7 @@
     justify-content: space-around;
     line-height: 20px;
     padding-top: 50px;
+    text-align: justify;
 }
 
 
@@ -177,6 +178,10 @@
     height: 180px;
     display: block;
     margin: 0 auto;
+}
+#audiofestinner>div>img:hover{
+    transform:scale(1.05);
+    cursor: pointer;
 }
 
 #audiofestinner>div>button{
@@ -219,7 +224,7 @@
 #besttvseller{
     border-bottom: 1px solid grey;
     width: 100vw;
-    /* height: 450px; */
+    text-align: justify;
     display: flex;
     justify-content: space-around;
     line-height: 20px;
@@ -244,6 +249,11 @@
     height: 180px;
     display: block;
     margin: 0 auto;
+}
+
+#besttvseller>div>img:hover{
+    transform:scale(1.05);
+    cursor: pointer;
 }
 
 #besttvseller>div>button{
@@ -348,6 +358,7 @@
     padding-top: 20px;
     width: 100vw;
     height: 450px;
+    text-align: justify;
 }
 
 #bestselling>p{
@@ -382,6 +393,11 @@
     height: 180px;
     display: block;
     margin: 0 auto;
+}
+
+#bestsellingaudio>div>img:hover{
+    transform:scale(1.05);
+    cursor: pointer;
 }
 
 #bestsellingaudio>div>button{
@@ -439,7 +455,10 @@
 
 #explorerange>#mid>div>p{
     font-size: large;
+}
 
+#explorerange>#mid>div>p:hover{
+    color: #003380;
 }
 
 #explorerange>button{

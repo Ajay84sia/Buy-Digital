@@ -9,9 +9,6 @@
 
     function displayprod(data){
 
-        console.log("inside function")
-
-        console.log(data)
 
         for(let i=0; i<5;i++){
 
@@ -89,8 +86,7 @@
 
         for(let x=5; x<10;x++){
 
-            console.log(data)
-
+ 
             let div3 = document.createElement("div");
 
             let imageDis = document.createElement("img")

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Electronic Shopping Store in India - Buy Digital</title>
     <script src="https://kit.fontawesome.com/7a0bb68024.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./style/login.css">
+    <link rel="stylesheet" href="./style/cart.css">
 </head>
 <body>
 
@@ -15,7 +15,7 @@
             <a href="./index.html"><img src="./Images/homepage/Logo1.png" alt="logo"></a>
         </div>
         <div id="mid">
-            <input type="text" placeholder="Find your favorite products">
+            <input oninput="handleSearch()" id="search" type="text" placeholder="Find your favorite products">
             <i class="fa fa-search" aria-hidden="true"></i>
         </div>
         <div id="right">
@@ -26,11 +26,11 @@
                 <p> | Contact us</p>
             </div>
             <div id="bottom">
-                <p>Select your PIN Code |</p>
+                <p>Select your PIN Code |&nbsp;</p>
                 <i class="fa fa-shopping-cart header__maininfo__list__item__icon" aria-hidden="true"></i>
-                <p>Cart |</p>
+                <p>&nbsp; Cart |&nbsp;</p>
                 <i class="fa fa-user header__maininfo__list__item__icon" aria-hidden="true"></i>
-                <p><a href="./login.html">Login</a></p>
+                <p><a href="./index.html">&nbsp; Logout</a></p>
             </div>
         </div>
     </div>
@@ -48,27 +48,15 @@
 
 
 
+    <div id="productfunction">
 
-    <div id="loginbottom">
+    
+      <div id="productarea">
 
-        <div id="leftimg">
-            <img src="https://www.reliancedigital.in/akamai/images/mobile/Login-banner.jpeg" alt="">
-        </div>
-
-        <div id="rightinput">
-            <div>
-                <div id="top">
-                  <h3>Login / Register</h3>
-                </div>
-                <div id="bottom">
-                  <input id="mob" type="number" placeholder="Enter Mobile Number">
-                  <button id="proceedbtn">PROCEED</button>
-                  <div>New User?<a href="./register.html">&nbsp; SIGN UP</a> </div>
-                </div>
-            </div>
-        </div>
+      </div>
 
     </div>
+
 
 
 
@@ -158,4 +146,4 @@
 </body>
 </html>
 
-<script src="./login.js"></script>
+<script src="./cart.js"></script>

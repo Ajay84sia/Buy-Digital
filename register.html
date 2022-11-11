@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Electronic Shopping Store in India - Buy Digital</title>
     <script src="https://kit.fontawesome.com/7a0bb68024.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./style/login.css">
+    <link rel="stylesheet" href="./style/register.css">
 </head>
 <body>
 
@@ -49,25 +49,35 @@
 
 
 
-    <div id="loginbottom">
+    <div id="registerparent">
 
-        <div id="leftimg">
-            <img src="https://www.reliancedigital.in/akamai/images/mobile/Login-banner.jpeg" alt="">
-        </div>
+        <div id="containchild">
 
-        <div id="rightinput">
-            <div>
-                <div id="top">
-                  <h3>Login / Register</h3>
-                </div>
-                <div id="bottom">
-                  <input id="mob" type="number" placeholder="Enter Mobile Number">
-                  <button id="proceedbtn">PROCEED</button>
-                  <div>New User?<a href="./register.html">&nbsp; SIGN UP</a> </div>
-                </div>
+            <div id="topchild"> Register New Account</div>
+
+            <div id="innercont">
+
+                <form id="form">
+                    <input type="text" placeholder="First Name" id="fname">
+                    <input type="text" placeholder="Last Name" id="lname">
+                    
+                    <input type="email" placeholder="Email Address" id="email">
+                    <input type="number" id="number" placeholder="Mobile Number">
+
+                    <input type="text" id="password" placeholder="Password">
+                    
+                    <input type="submit" value="PROCEED">
+                    <div>Already Registered? <a href="./login.html">LOGIN</a> </div>
+                </form>
+
+
+
             </div>
+
+
         </div>
 
+        
     </div>
 
 
@@ -158,4 +168,4 @@
 </body>
 </html>
 
-<script src="./login.js"></script>
+<script src="./register.js"></script>
