@@ -11,28 +11,27 @@
     display: flex;
     align-items:center;
     justify-content: space-between;
-    margin-top: -20px;
-    padding-top: 5px;
+    padding-top: 2px;
 }
 #img1>img{
     background-color: #003380;
     margin-top: 130px;
     width: 100vw;
-    height: 300px;
+    height: 240px;
 }
 #nav>#left{
     background-color: white;
     margin-left: 50px;
-    width: 90px;    
-    height: 90px;
+    width: 80px;    
+    height: 80px;
     border-radius: 50%;   
     margin-bottom: 4px;
 }
 #nav>#left>a>img{
     margin-left: 9px;
     margin-top: 9px;
-    width: 80%;    
-    height: 80%;    
+    width: 76%;    
+    height: 76%;    
 }
 #mid > i {
 	font-size: 15px;
@@ -46,7 +45,7 @@
 	width: 600px;
 	border: none;
 	outline: none;
-    margin-top: 35px;
+    margin-top: 25px;
 	font-size: 15px;
 	padding-left: 20px;
     color: rgb(200, 187, 187);
@@ -68,7 +67,7 @@
     color: white;
     justify-content: space-between;
     align-items: flex-start;    
-    margin-bottom: 45px;
+    margin-bottom: 25px;
 }
 
 #right>#top>i{
@@ -115,80 +114,111 @@
     background-color: #e42529;
 }
 
-/* login */
+/* product */
 
-#loginbottom{
-    margin: 20px;
-    display: flex;
-    justify-content: space-between;   
-    
+#productfunction{
+    padding-top: 170px;
+    margin-bottom: 50px;
 }
 
-#loginbottom>#leftimg{
-    padding-top: 150px;
-    width: 60%;       
-}
-
-#loginbottom>#leftimg>img{
-    width: 100%;    
-    height: 380px;    
-}
-
-#rightinput{
-    width: 30%;  
-    margin-top: 150px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+#priceSort{
+    width: 150px;
+    margin-left: 500px;   
+    text-align: center; 
+    height: 30px;
     border-radius: 10px;
-    height: 250px;
+    font-weight: 600;
+    color: #003380;
+    border: 1px solid #003380;
 }
 
-#loginbottom>#rightinput>div>#top{
-    width: 413px;
-    height: 45px;   
-    padding-top: 20px; 
-    padding-left: 30px; 
-    background-color: #f9fafd;
-    border: none;
-}
-
-#loginbottom>#rightinput>div>#bottom{
-    width: 400px;
-    padding-top: 30px; 
-    padding-left: 30px; 
-    padding-right: 30px; 
-}
-
-#loginbottom>#rightinput>div>#bottom>input{
-    padding-left: 20px;
-    width: 90%;
-    height: 35px;
-    margin-bottom: 30px;
-    border: 1px solid lightgrey;
-}
-
-#loginbottom>#rightinput>div>#bottom>button{
-    border: none;
-    background-color: #e42529;
-    color: white;
-    font-weight: bold;
-    height: 35px;
-    width: 96%;
-    cursor: pointer;
-
-}
-
-#loginbottom>#rightinput>div>#bottom>div>a{
-    text-decoration: none;
-    color: #e42529;
-    font-weight: bold;
-}
-
-#loginbottom>#rightinput>div>#bottom>div{
+#catSort{
+    margin-left: 100px;
     text-align: center;
-    margin-top: 10px;
+    width: 180px;
+    height: 30px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #003380;
+    border: 1px solid #003380;
 }
 
-/* login */
+#productarea{
+    width: 100vw;
+    margin: auto;
+    width: 95vw;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+#productarea>div{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#productarea>div>span{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#productarea>div>span>p{
+    padding-top: 5px;
+}
+
+#productarea>div>span>h5{
+    font-size: larger;
+    margin-left: 10px;
+    padding-top: 3px;
+}
+
+#productarea>div>span+p{
+    margin-bottom: -15px;
+}
+
+#productarea>div>p{
+    line-height: 1.4em;
+    height: 2.8em;     
+    overflow: hidden; 
+    margin-bottom: 5px;
+    color: #0a244a;
+    font-size: 17px;
+}
+#productarea>div>img{
+    width: 180px;
+    height: 180px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+#productarea>div>img:hover{
+    transform:scale(1.05);
+}
+
+#productarea>div>button{
+    color: white;
+    background-color:#e42529;
+    border: none;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    margin-top: -20px;
+    margin-bottom: 15px;
+}
+
+/* product */
 
 #bottommenu{
     color: white;

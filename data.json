@@ -133,5 +133,185 @@
         "category": "tv",
         "image": "https://www.reliancedigital.in/medias/IFFALCON-43F2A-Television-492338468-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1MTMwNXxpbWFnZS9qcGVnfGltYWdlcy9oOWIvaDg5Lzk1ODA4NzU2Nzc3MjYuanBnfDk3ZmIwN2RjZTUxNTA1YTBmMzk5MWY4YjA3OGJmYjJkNGQ3MDFjNmJhNjU1Yjk5MWRhZTNmNTI3ZTE0ZmExNTc",
         "save": "65%(30000)"
+    },
+    {
+        "id": 16,
+        "title": "Apple iPhone 13 128 GB, Pink",
+        "offerPrice": 66900.00,
+        "price": 69900.00,
+        "category": "phone",
+        "image": "https://www.reliancedigital.in/medias/Apple-MLPH3HN-A-SmartPhones-491997703-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wyODMzMzJ8aW1hZ2UvanBlZ3xpbWFnZXMvaGY0L2gzZi85ODc4MTAwOTY3NDU0LmpwZ3wwM2UxZDg0MDlhZTY0ZWQxODY1NzIzY2Q3M2IwYmYwODc0MzYzMmMxM2ViMDY1YjkzMWQ1MTJkODJmN2I5MGYy",
+        "save": "4%(3000)"
+    },
+    {
+        "id": 17,
+        "title": "Motorola G62 5G 128 GB, 6 GB RAM, Frosted Blue, Mobile Phone",
+        "offerPrice": 15999.00,
+        "price": 21999.00,
+        "category": "phone",
+        "image": "https://www.reliancedigital.in/medias/Motorola-G62-Mobile-Phone-493177199-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w4NTIwOHxpbWFnZS9qcGVnfGltYWdlcy9oZjMvaGI0Lzk4NzMyNjY4NjgyNTQuanBnfDk1ZDNkMDkxMGE4Zjk3NjQzNGM1ZTFkOGNlNDJlMzZiOGQxNWY0ZTcyNzdlZTZkOTM4NDMzZjY0ODM1YTA3Y2E",
+        "save": "27%(6000)"
+    },
+    {
+        "id": 18,
+        "title": "Redmi Note 10 Pro 128 GB, 8 GB RAM, Vintage Bronze, Mobile Phone",
+        "offerPrice": 19499.00,
+        "price": 21999.00,
+        "category": "phone",
+        "image": "https://www.reliancedigital.in/medias/Redmi-Note-10-Pro-Smart-Phones-491947304-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w0NDI1OHxpbWFnZS9qcGVnfGltYWdlcy9oNTUvaDdhLzk1MTEwNTA3NzI1MTAuanBnfDI2ZmI2MjNlMzhjZTk4MzE5NzNiMDcxNTk3NmIzOTdkOWExOWEwZTE1MzFkOGYxYzllOTllMTgyZTQ0N2JkN2E",
+        "save": "11%(2500)"
+    },
+    {
+        "id": 19,
+        "title": "Realme 8i 64 GB, 4 GB RAM, Space Purple, Mobile Phone",
+        "offerPrice": 13999.00,
+        "price": 15999.00,
+        "category": "phone",
+        "image": "https://www.reliancedigital.in/medias/realme-8i-Smartphone-491997634-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxMDQzNDB8aW1hZ2UvanBlZ3xpbWFnZXMvaDdkL2g1OC85NjMyMTQ1MDQ3NTgyLmpwZ3wwM2JmZTY0NjFmNDEzZjZmNzM4NjI4ZDIzNWJjZDUwNTdmZTE2OGVlNjk0M2E1MGFkZDI2OGYyMjgxOTBjODJl",
+        "save": "13%(2000)"
+    },
+    {
+        "id": 20,
+        "title": "Samsung Galaxy A22 5G 128 GB, 6 GB RAM, Gray, Mobile Phone",
+        "offerPrice": 17999.00,
+        "price": 22499.00,
+        "category": "phone",
+        "image": "https://www.reliancedigital.in/medias/Samsung-A22-5G-Smartphones-491997347-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w0MjY3N3xpbWFnZS9qcGVnfGltYWdlcy9oMzEvaGM1Lzk2MDE0MjM2NzEzMjYuanBnfGVlNWEzODAwNmVjMzE2NmIxMDIzMmNiODIwMDIyNTFkZWYxZTEzMDBlYTQ4ODU1MjcwOTEzOTIzZGNkZTdjNWM",
+        "save": "20%(4500)"
+    },
+    {
+        "id": 21,
+        "title": "Vivo T1 Pro 5G 128 GB, 8 GB RAM, Turbo Black, Mobile Phone",
+        "offerPrice": 24999.00,
+        "price": 30990.00,
+        "category": "phone",
+        "image": "https://www.reliancedigital.in/medias/Vivo-T1-Pro-5G-Mobiles-492850284-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wyMTM2Njh8aW1hZ2UvanBlZ3xpbWFnZXMvaDVlL2gxMS85ODY2Nzk5NzEwMjM4LmpwZ3xlNGEwOTM5MzJhMTRhNjg3ODc1MTM5YzI5ODE5N2Q3Zjc5YjQ2ODI4MWI0NWU2ZGI2ZmU5Yjk4ODc3NmE3Yzg4",
+        "save": "19%(5991)"
+    },
+    {
+        "id": 22,
+        "title": "OPPO A76 128 GB, 6 GB RAM, Glowing Black, Mobile Phone",
+        "offerPrice": 16490.00,
+        "price": 21990.00,
+        "category": "phone",
+        "image": "https://www.reliancedigital.in/medias/OPPO-A76-Smartphone-492849462-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w3MjAyMTZ8aW1hZ2UvcG5nfGltYWdlcy9oMTkvaGUwLzk4ODAzNjU0OTgzOTgucG5nfDg0ZTY3MjcxNGJkYWQ1YmZjMGJjZTE4MTdmNGU0MzAyY2Y3MDRkMzM2Y2Q3YTUyZWJjMjg0YTgzZWU0OTc1NGQ",
+        "save": "25%(5500)"
+    },
+    {
+        "id": 23,
+        "title": "Nokia 5.4 64 GB, 6 GB RAM, Polar Night, Mobile Phone",
+        "offerPrice": 14499.00,
+        "price": 18499.00,
+        "category": "phone",
+        "image": "https://www.reliancedigital.in/medias/Nokia-5.4-Smart-Phones-491947319-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w2Njk2N3xpbWFnZS9qcGVnfGltYWdlcy9oNzMvaGQ5Lzk1MTg2Njc0OTc1MDIuanBnfDFjZTU3YmM4MDVlNDZjZTdkYTVjMjlkNjg5ZDIxMzdjNzFlYTMyNDAyMDMzOGU5ZjhjYjI0MzZiMDc0YTMyYzQ",
+        "save": "22%(4000)"
+    },
+    {
+        "id": 24,
+        "title": "Zebronics Transformer-M Wired Gaming Mouse, Black",
+        "offerPrice": 349.00,
+        "price": 649.00,
+        "category": "computer",
+        "image": "https://www.reliancedigital.in/medias/ZEBRONICS-ZEB-TRANSFORMER-M-WIREDMOUSE-492574840-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxODc3ODl8aW1hZ2UvanBlZ3xpbWFnZXMvaGNiL2hlOC85NzU4NTc4OTk5MzI2LmpwZ3xjMTRlOTBlYjAzYzVlZjU4MjAxMTJmM2JmNDhmNDZhZDJjMjViMGFkOTQ5OWIyNDhmMDcyMjVhN2VkYzUwMWU5",
+        "save": "46%(300)"
+    },
+    {
+        "id": 25,
+        "title": "Redgear Dragonwar Emera ELE-G11 Gaming Mouse with 6 control buttons (Black)",
+        "offerPrice": 474.00,
+        "price": 499.00,
+        "category": "computer",
+        "image": "https://www.reliancedigital.in/medias/Redgear-DRAGONWAREMERA-WIREDMOUSE-492574857-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wzNDg2MnxpbWFnZS9qcGVnfGltYWdlcy9oNmIvaDg1Lzk3NTg1NTcxNDMwNzAuanBnfGFjMGY0ZTAyNDg2ZTUwZDA3NzgyN2E0YWQ4MDljOGRjZjQwMWU1NWNkMzNiMDllMmQ4YTYzZWQ5YjkwZmM3NjI",
+        "save": "5%(25)"
+    },
+    {
+        "id": 26,
+        "title": "Amkette Xcite Pro Wired Keyboards",
+        "offerPrice": 529.00,
+        "price": 559.00,
+        "category": "computer",
+        "image": "https://www.reliancedigital.in/medias/Amkette-Xcite-Pro-Keyboards-492849241-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w0NzMyOHxpbWFnZS9qcGVnfGltYWdlcy9oYWMvaDQyLzk4MDUwMjYwMzM2OTQuanBnfDBhNjY5M2UwYjAzMzI0NTY4NWVlZjY1Y2ViYWYxNzJkYjFlZGIyYjM4NDUxMTVjMTIxMDkzYzhkNTljYjkyNTE",
+        "save": "5%(30)"
+    },
+    {
+        "id": 27,
+        "title": "HP Z3700 Wireless Mouse Silver/Black (X7Q44AA)",
+        "offerPrice": 1199.00,
+        "price": 1499.00,
+        "category": "computer",
+        "image": "https://www.reliancedigital.in/medias/HP-Z3700-Mouse-491550951-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxOTUwNXxpbWFnZS9qcGVnfGltYWdlcy9oMTgvaDFiLzkxMjMxMDI5MTY2MzguanBnfDZlMjBlODc3ZDViN2I2YTQ4ZWJmZjQ3MzY2N2JhYmViMjhlYTRjYzg2NTFlZGZmMzQ0ZmE5ZmRhZWY3MDlmMDQ",
+        "save": "20%(300)"
+    },
+    {
+        "id": 28,
+        "title": "Lenovo Legion M200 Wired Gaming Mouse",
+        "offerPrice": 1415.00,
+        "price": 2590.00,
+        "category": "computer",
+        "image": "https://www.reliancedigital.in/medias/Lenovo-GX30P93886-Mouse-491897342-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wyMDQ2OTh8aW1hZ2UvanBlZ3xpbWFnZXMvaDQ2L2g0OS85MzcwNzgzNTgwMTkwLmpwZ3w1ODJkMzkzMzA5ZmU0YzgyZjM3NmQ0MWQzNDM4YjY0YjU1M2QwMzg2NGE1MDFhMTgwYmZkMTcxMDJmZmQ2YTQ5",
+        "save": "45%(1175)"
+    },
+    {
+        "id": 29,
+        "title": "Lenovo 100 Wireless Keyboard And Mouse Combo",
+        "offerPrice": 1765.00,
+        "price": 3290.00,
+        "category": "computer",
+        "image": "https://www.reliancedigital.in/medias/Lenovo-GX30L66303-Keyboard-491897343-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxMzM4MjB8aW1hZ2UvanBlZ3xpbWFnZXMvaDBiL2hmNi85MzcwNzk0MDY1OTUwLmpwZ3wxNDA3OTY0NjNlZGIwYTYxZTE2YzM0YmNhZjFkNjAyYzY4MGYyMGE1NTg5NmYwMDZlNzA0ZGI4MjE1OGNkYjU2",
+        "save": "46%(1525)"
+    },
+    {
+        "id": 30,
+        "title": "HP Omen Sequencer Gaming Wired Keyboard, Black (Five Customizable Macro Keys)",
+        "offerPrice": 8999.00,
+        "price": 14999.00,
+        "category": "computer",
+        "image": "https://www.reliancedigital.in/medias/HP-Sequencer-Keyboards-491996984-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxMTQ2MzV8aW1hZ2UvanBlZ3xpbWFnZXMvaDA1L2hmMi85NTgxNDY3MTcyODk0LmpwZ3xhZGJlZTU5Nzc1YzcyYWNmMDY3MjJmNGQwYTI2MTZiZGE1MjRkNTQ5ZmQ5MTA1MmZkMDM4ZTM5MDhkYmUzMTg5",
+        "save": "40%(6000)"
+    },
+    {
+        "id": 31,
+        "title": "JioBook (NB2112QB/JioOS/Octa-Core/LTE/2GB LPDDR4X/32GB eMMC/HD/1.2 Kg), 29.46 cm (11.6 inch)",
+        "offerPrice": 15799.00,
+        "price": 35605.00,
+        "category": "laptop",
+        "image": "https://www.reliancedigital.in/medias/JioBook-NB2112QB-Laptop-492337972-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxMjU5NzR8aW1hZ2UvanBlZ3xpbWFnZXMvaGRjL2g0Ni85OTEwNzMwMjI3NzQyLmpwZ3wyYjA4MWZlMGUzNGY1YzY2YTFlYmZiNGQyMDFlNTYxYzE3ZDYyNWNiMWIwNjAzMGJmYWQ4NTY3YTkyMmNhZGQw",
+        "save": "56%(19806)"
+    },
+    {
+        "id": 32,
+        "title": "Apple MGN63HNA MacBook Air (Apple M1 Chip/8GB/256GB SSD/macOS Big Sur/Retina), 33.78 cm (13.3 inch)",
+        "offerPrice": 89490.00,
+        "price": 99900.00,
+        "category": "laptop",
+        "image": "https://www.reliancedigital.in/medias/Apple-MGN63HNA-Laptops-491946461-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxNzczNDJ8aW1hZ2UvanBlZ3xpbWFnZXMvaDVhL2gyZC85NDQzMDgzNTgzNTE4LmpwZ3xhYzRiNWIxZGQ2NjNiNWIyYjI0Y2ZkYTZlZWQ3MTFjZTMxYzVmNDBiNmM5Mzk5OTM2OGVkZmExMjMyYjIxNDQ4",
+        "save": "10%(10410)"
+    },
+    {
+        "id": 33,
+        "title": "HP 15s-fq2670TU Laptop (11th Gen Intel Core i3-1115G4/8 GB RAM/256 GB SSD/Windows 11 Home/MSO/FHD), 39.6 cm (15.6 inch)",
+        "offerPrice": 37999.00,
+        "price": 45409.00,
+        "category": "laptop",
+        "image": "https://www.reliancedigital.in/medias/Hp-6N043PA-ACJ-Laptop-493177597-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyOTkyOHxpbWFnZS9qcGVnfGltYWdlcy9oNjIvaDZhLzk4ODIyODk1MzcwNTQuanBnfDAzZjY0ZjBmY2RmNWY0YzBiMWU5MGQ1YTkxYWIxMmVhZGJmYTdkNDFkYWRiMGMwNzNhOTlhNzFmM2EzNWQxZGE",
+        "save": "16%(7410)"
+    },
+    {
+        "id": 34,
+        "title": "Dell 3511 Inspiron 15 Laptop (11th Gen Intel Core i5-1135G7/8GB/1TB HDD+256 GB SSD/2GB/Nvidia GeForce MX350/Windows 11/MSO/FHD), 39.62 cm (15.6 inch)",
+        "offerPrice": 63999.00,
+        "price": 87280.00,
+        "category": "laptop",
+        "image": "https://www.reliancedigital.in/medias/Dell-3511-Laptops-492575085-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w3MjQxN3xpbWFnZS9qcGVnfGltYWdlcy9oNWQvaDhhLzk3NzAyNDI3MzYxNTguanBnfDExZDc2ZWI5MzcwY2Q4NzU0M2NhODNlYmE5NjRkZjUxMmM5MGUyODY0ZmQ2ZDk2MTMyM2RlNjgzZjJiMmRmZjM",
+        "save": "27%(23281)"
+    },
+    {
+        "id": 35,
+        "title": "Asus VivoBook S 15 L501WS Laptop (12th Gen Intel Core i5-12500H/16 GB/512GB SSD/Windows 11/MSO/OLED), 39.62 cm (15.6 inch)",
+        "offerPrice": 74990.00,
+        "price": 92990.00,
+        "category": "laptop",
+        "image": "https://www.reliancedigital.in/medias/Asus-S3502ZA-L501WS-Laptop-492850168-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyNzc3NnxpbWFnZS9qcGVnfGltYWdlcy9oZDAvaGJjLzk4MzE2MjI3MDUxODIuanBnfGQ4YTk2YTk3ZDEwZWVhMWZiMWJjNjA4ZmE1YTA3OWU5ZTc3NzlhZjIzNzAzZTAxNjBkNGIwNjk0NjUyYzA0OTQ",
+        "save": "19%(18000)"
     }
 ]

@@ -12,7 +12,8 @@
     align-items:center;
     justify-content: space-between;
     margin-top: -20px;
-    padding-top: 5px;
+    padding-top: 20px;
+    height: 90px;
 }
 #img1>img{
     background-color: #003380;
@@ -23,10 +24,10 @@
 #nav>#left{
     background-color: white;
     margin-left: 50px;
-    width: 90px;    
-    height: 90px;
+    width: 80px;    
+    height: 80px;
     border-radius: 50%;   
-    margin-bottom: 4px;
+    margin-bottom: 5px;
 }
 #nav>#left>a>img{
     margin-left: 9px;
@@ -46,7 +47,7 @@
 	width: 600px;
 	border: none;
 	outline: none;
-    margin-top: 35px;
+    margin-top: 25px;
 	font-size: 15px;
 	padding-left: 20px;
     color: rgb(200, 187, 187);
@@ -68,19 +69,16 @@
     color: white;
     justify-content: space-between;
     align-items: flex-start;    
-    margin-bottom: 45px;
+    padding-top: 12px;
 }
 
-#right>#top>i{
-    margin-top: 3px;
-    width: 14px;
-}
 
 #right>#bottom{
     display: flex;
     color: white;
     justify-content: space-between;
     align-items: flex-start;
+    padding-bottom: 12px;
 }
 
 #right>#bottom>p>a{
@@ -115,80 +113,75 @@
     background-color: #e42529;
 }
 
-/* login */
+/* register */
 
-#loginbottom{
-    margin: 20px;
-    display: flex;
-    justify-content: space-between;   
+#registerparent{
+    padding-top: 170px;
+    margin: auto;
+    width: 450px;
     
 }
 
-#loginbottom>#leftimg{
-    padding-top: 150px;
-    width: 60%;       
-}
-
-#loginbottom>#leftimg>img{
-    width: 100%;    
-    height: 380px;    
-}
-
-#rightinput{
-    width: 30%;  
-    margin-top: 150px;
+#containchild{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 10px;
-    height: 250px;
 }
 
-#loginbottom>#rightinput>div>#top{
-    width: 413px;
-    height: 45px;   
-    padding-top: 20px; 
-    padding-left: 30px; 
+#topchild{
+    padding: 20px;
+    font-size: larger;
+    font-weight: bold;
     background-color: #f9fafd;
-    border: none;
+    
 }
 
-#loginbottom>#rightinput>div>#bottom{
-    width: 400px;
-    padding-top: 30px; 
-    padding-left: 30px; 
-    padding-right: 30px; 
+#innercont{
+    
+    padding-left: 35px;
+    height: 480px;
+    margin-bottom: 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
-#loginbottom>#rightinput>div>#bottom>input{
-    padding-left: 20px;
-    width: 90%;
+
+#innercont input{
+    margin-top: 30px;
     height: 35px;
-    margin-bottom: 30px;
+    width: 350px;
+    padding-left: 15px;
     border: 1px solid lightgrey;
 }
 
-#loginbottom>#rightinput>div>#bottom>button{
-    border: none;
+#innercont input:nth-child(6){
+    width: 370px;
+    font-size: large;       
+}
+
+input[type="submit"]{
     background-color: #e42529;
     color: white;
-    font-weight: bold;
-    height: 35px;
-    width: 96%;
+    width: 300px;
+    margin-right: 20px;
+    margin-bottom: 30px;
     cursor: pointer;
+
 
 }
 
-#loginbottom>#rightinput>div>#bottom>div>a{
+#innercont>form>div{
+    text-align: center;
+}
+
+#innercont>form a{
     text-decoration: none;
     color: #e42529;
     font-weight: bold;
 }
 
-#loginbottom>#rightinput>div>#bottom>div{
-    text-align: center;
-    margin-top: 10px;
-}
 
-/* login */
+
+/* register */
 
 #bottommenu{
     color: white;
