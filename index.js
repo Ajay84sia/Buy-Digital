@@ -31,6 +31,7 @@
             
             let mrp = document.createElement("p")
             mrp.innerText = "M.R.P: "+data[i].price+".00";
+            mrp.style.textDecoration = "line-through";
             
             
             let saving = document.createElement("p")
@@ -68,6 +69,7 @@
             
             let mrp = document.createElement("p")
             mrp.innerText = "M.R.P: "+data[i].price+".00";
+            mrp.style.textDecoration = "line-through";
             
       
             let saving = document.createElement("p")
@@ -106,6 +108,7 @@
             
             let mrp = document.createElement("p")
             mrp.innerText = "M.R.P: "+data[x].price+".00";
+            mrp.style.textDecoration = "line-through";
             
       
             let saving = document.createElement("p")

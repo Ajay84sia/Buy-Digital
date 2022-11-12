@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Electronic Shopping Store in India - Buy Digital</title>
     <script src="https://kit.fontawesome.com/7a0bb68024.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./style/cart.css">
+    <link rel="stylesheet" href="./style/payment.css">
 </head>
 <body>
 
@@ -15,7 +15,7 @@
             <a href="./index.html"><img src="./Images/homepage/Logo1.png" alt="logo"></a>
         </div>
         <div id="mid">
-            <input oninput="handleSearch()" id="search" type="text" placeholder="Find your favorite products">
+            <input type="text" placeholder="Find your favorite products">
             <i class="fa fa-search" aria-hidden="true"></i>
         </div>
         <div id="right">
@@ -30,7 +30,7 @@
                 <i class="fa fa-shopping-cart header__maininfo__list__item__icon" aria-hidden="true"></i>
                 <p>&nbsp; Cart |&nbsp;</p>
                 <i class="fa fa-user header__maininfo__list__item__icon" aria-hidden="true"></i>
-                <p><a href="./index.html">&nbsp; Logout</a></p>
+                <p><a href="./index.html">&nbsp;Logout</a></p>
             </div>
         </div>
     </div>
@@ -48,32 +48,46 @@
 
 
 
-    <div id="productfunction">
 
-      <h1>Your Cart</h1>
-    
-      <div id="productarea">
+    <div id="payparent">
 
-      </div>
+        <div id="containchild">
 
+            <h2 id="topchild"> Payment Details </h2>
+
+            <div id="innercont">
+
+                <form id="form">
+                    <label for="holderName">Card Holder's Name</label>
+                    <input type="text" id="holdName">
+                    
+                    <label for="cardNum">Card Number</label>
+                    <input type="number" placeholder="1234-1234-1234-1234" id="CardNumber" maxlength="16">
+
+                    <div>
+                        <div>
+                            <label for="expiry">Expiry date</label>
+                            <input type="month" id="myDate" value="2022-11">
+
+                        </div>
+                        <div id="cvc">
+                            <label for="expiry">CVV / CVC</label>
+                            <input type="number" id="cvv" placeholder="123" maxlength="3">
+                        </div>
+                    </div>
+                    <h2 id="lsAmount"></h2>
+                    <input id="payForm" type="submit" value="PAY">
+                </form>
+
+
+
+            </div>
+
+
+        </div>
+
+        
     </div>
-
-    <div id="cartTotal">
-      <div id="cartTop">
-
-      </div>
-      <div id="promo">
-        <p>Apply Promo:</p>
-        <input id="proInput" type="text">
-        <button id="btnApply">Apply</button>
-      </div>
-      <div id="final">
-        <h2>Amount Payable: </h2>
-        <h3 id="afterPromo"></h3>
-      </div>
-      <button id="btnCheckout">CHECKOUT</button>
-    </div>
-
 
 
 
@@ -163,4 +177,4 @@
 </body>
 </html>
 
-<script src="./cart.js"></script>
+<script src="./payment.js"></script>
