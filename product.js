@@ -133,6 +133,7 @@ function handlePrice(){
           
           let mrp = document.createElement("p")
           mrp.innerText = "M.R.P: "+elem.price+".00";
+          mrp.style.textDecoration = "line-through";
           
           
           let saving = document.createElement("p")
@@ -141,7 +142,15 @@ function handlePrice(){
           let btn = document.createElement("button")
           btn.innerText = "Add To Cart";
           btn.addEventListener("click", function () {
-            cartItems.push(elem)
+            let x = cartItems.filter(data => data.title == elem.title);
+            if(x.length == 0){
+                cartItems.push({...elem , count:1});
+                console.log("inside if")
+                alert("product added in the cart")
+              }else{
+                console.log(x[0].count++, "inside else")
+                alert("product quantity increased")
+            }
             localStorage.setItem("cartProducts",JSON.stringify(cartItems))            
           })
           
