@@ -124,10 +124,13 @@
             document.querySelector("#bestsellingaudio").append(div3);
         }
 
+    }
 
 
+    document.querySelector("#audiofestinner").addEventListener("click",loginPage);
+    document.querySelector("#besttvseller").addEventListener("click",loginPage);
+    document.querySelector("#bestsellingaudio").addEventListener("click",loginPage);
 
-
-
-
+    function loginPage(){
+        location.href = "./register.html";
     }
