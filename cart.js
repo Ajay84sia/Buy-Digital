@@ -2,14 +2,14 @@ let cartItems = JSON.parse(localStorage.getItem("cartProducts")) || [];
 
 displayprod(cartItems)
 
-
+var amount = 0;
 
 function displayprod(data){
 
     document.querySelector("#productarea").innerHTML ="";
 
 
-      data.forEach(function (elem){
+      data.forEach(function (elem,index){
 
           let div1 = document.createElement("div");
 
@@ -43,10 +43,19 @@ function displayprod(data){
 
           let total = document.createElement("h2");
           total.innerText = "Total: "+" "+proTotal;
+
+          let removebtn = document.createElement("button");
+          removebtn.innerText = "Remove"
+          removebtn.addEventListener("click",function(){
+
+            amount-=(elem.offerPrice *elem.count);
+            deleteData(cartItems,index);
+            
+          })
                    
           span1.append(titlePrice,dealPrice);
 
-          div1.append(imageDis,tiTle,span1,mrp,saving,quant,total);
+          div1.append(imageDis,tiTle,span1,mrp,saving,quant,total,removebtn);
 
           document.querySelector("#productarea").append(div1);
         
@@ -55,12 +64,11 @@ function displayprod(data){
             
   }
 
-  var amount = 0;
+
 
   for(let i=0; i<cartItems.length; i++){
       amount+=cartItems[i].offerPrice * cartItems[i].count;
   }
-
 
   let cartdiv = document.querySelector("#cartTop");
 
@@ -82,7 +90,6 @@ function displayprod(data){
 
     let promoInput = document.querySelector("#proInput").value.toLowerCase();
 
-
     if(promoInput=="masai20"){
         document.querySelector("#afterPromo").innerText = "";
 
@@ -100,7 +107,9 @@ function displayprod(data){
 
     }
 
-  })
+})
+
+
 
 document.querySelector("#btnCheckout").addEventListener("click",function(){
     
@@ -110,3 +119,14 @@ document.querySelector("#btnCheckout").addEventListener("click",function(){
 
     location.href = "./payment.html";
 })
+
+
+function deleteData(data,index){
+    data.splice(index,1)
+    localStorage.setItem("cartProducts", JSON.stringify(data));
+    displayprod(cartItems);
+    totalCartValue.innerText = amount;
+    promoTag.innerText = amount;
+}
+
+

@@ -15,7 +15,7 @@ function checkData(){
                 
         if(enterMail == getData[i].eMail && enterPass == getData[i].passWord){
             flag = true;
-            alert("Login Successful! "+" Welcome, "+getData[i].firstName)
+            alert("Login Successful! "+" Welcome, "+getData[i].firstName+" "+getData[i].lastName)
             location.href = "./product.html";
             break;            
         }

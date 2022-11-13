@@ -12,8 +12,7 @@
     align-items:center;
     justify-content: space-between;
     margin-top: -20px;
-    padding-top: 20px;
-    height: 90px;
+    padding-top: 5px;
 }
 #img1>img{
     background-color: #003380;
@@ -23,11 +22,12 @@
 }
 #nav>#left{
     background-color: white;
+    margin-top: 17px;
     margin-left: 50px;
     width: 80px;    
     height: 80px;
     border-radius: 50%;   
-    margin-bottom: 5px;
+    margin-bottom: 4px;
 }
 #nav>#left>a>img{
     margin-left: 9px;
@@ -47,7 +47,7 @@
 	width: 600px;
 	border: none;
 	outline: none;
-    margin-top: 25px;
+    margin-top: 35px;
 	font-size: 15px;
 	padding-left: 20px;
     color: rgb(200, 187, 187);
@@ -69,16 +69,21 @@
     color: white;
     justify-content: space-between;
     align-items: flex-start;    
-    padding-top: 12px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
+#right>#top>i{
+    margin-top: 3px;
+    width: 14px;
+}
 
 #right>#bottom{
     display: flex;
     color: white;
     justify-content: space-between;
     align-items: flex-start;
-    padding-bottom: 12px;
+    margin-top: 15px;
 }
 
 #right>#bottom>p>a{
@@ -113,97 +118,26 @@
     background-color: #e42529;
 }
 
-/* register */
+/* login */
 
-#payparent{
-    padding-top: 170px;
+#orderbottom{
     margin: auto;
-    width: 450px;
-    
+    margin-left: 350px;   
 }
 
-#containchild{
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 10px;
+#orderbottom>#top{
+    padding-top: 150px;
+    margin-left: 350px;   
 }
 
-#topchild{
-    padding: 20px;
-    font-size: xx-large;
-    background-color: #f9fafd;
-    text-align: center;
-    
-}
-
-#innercont{
-  
-    padding-left: 40px;
-    height: 370px;
-    margin-bottom: 40px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-
-label{
-    display: block;
-    align-items: left;
+#orderbottom>#bottom{
     margin-top: 20px;
-    margin-bottom: -20px;
-    font-size: large;
-    font-weight: bold;
-}
-
-#innercont input{
-    margin-top: 30px;
-    height: 35px;
-    width: 350px;
-    padding-left: 15px;
-    border: 1px solid lightgrey;
+    margin-left: 120px;
 }
 
 
-button{
-    background-color: #e42529;
-    color: white;
-    width: 200px;
-    margin: 30px 30px 30px 90px;
-    cursor: pointer;
-    border-radius: 20px;
-    font-size: large;
-    font-weight: bold;
-    border: none;
-    height: 30px;
-}
 
-#form>div{
-    display: flex;
-    font-size: large;
-}
-
-#cardNumber,#holdName{
-    font-size: large;
-}
-
-#form>div div #myDate{
-    width: 150px;
-    font-size: large;
-}
-
-#form>div div #cvv{
-    width: 70px;
-    font-size: large;
-}
-
-#form>div #cvc{
-    margin-left: 110px;
-}
-
-#form>div+h2{
-    margin-top: 20px;
-    margin-bottom: -10px;
-}
-
-/* register */
+/* login */
 
 #bottommenu{
     color: white;
@@ -249,7 +183,6 @@ footer{
     color: white;
     background-color: #0a244a;
     width: 100vw;
-    height: 140px;
     text-align: center;
 }
 
