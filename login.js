@@ -4,12 +4,27 @@ document.querySelector("#proceedbtn").addEventListener("click", checkUser);
 
 function checkUser(){
 
+    let obj={
+        eMail:"abc@ymail.com",
+        firstName:"zzz",
+        lastName:"xxx",
+        mobNum:"0000000000",
+        passWord:"9898989898"
+    }
+
+    let arrObj = [obj];
+
     
     var mobileNum = document.querySelector("#mob").value
 
-    var getData = JSON.parse(localStorage.getItem("userData"))
+    var getData = JSON.parse(localStorage.getItem("userData")) || arrObj;
      
     var flag = false;
+
+
+    if(getData.length == null){
+        alert("Please click on SIGN UP for registration")
+    }
 
     
 
