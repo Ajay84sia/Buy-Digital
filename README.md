@@ -19,23 +19,30 @@
 
 
 # 🏷️ Home Page
+![image](https://github.com/Ajay84sia/Buy-Digital/assets/98752820/db00cc40-ebf1-471a-bd5e-f3713e4c7a82)
 
 
 # 🏷️ Signup Page
+![image](https://github.com/Ajay84sia/Buy-Digital/assets/98752820/d8c8e20c-cfdf-4718-aa84-6e9d3c08f82c)
 
 
 # 🏷️ Login Page
+![image](https://github.com/Ajay84sia/Buy-Digital/assets/98752820/48082989-4f8d-4015-8c46-f3fa460eb925)
 
 
 # 🏷️ Products Page
-
-
-# 🏷️ Details Page
+![image](https://github.com/Ajay84sia/Buy-Digital/assets/98752820/ee614cf8-01d4-4acf-b7d3-2f2c7fe5260e)
 
 
 # 🏷️ Cart Page
+![image](https://github.com/Ajay84sia/Buy-Digital/assets/98752820/3f43c8fb-5896-46cb-9fc2-81a041842272)
 
 
+# 🏷️ Payment Page
+![image](https://github.com/Ajay84sia/Buy-Digital/assets/98752820/a07a81a8-a790-4dea-9421-02cfb755c3b6)
+
+# 🏷️ Order Placed Page
+![image](https://github.com/Ajay84sia/Buy-Digital/assets/98752820/95f212d2-a946-476e-a63f-498ed3c21e17)
 
 
 
